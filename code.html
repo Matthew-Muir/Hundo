@@ -50,24 +50,31 @@
         </div>
     </nav>
     <!--Main Section-->
-    <main class="flex-shrink-0">
-        <div class="container py-5 px-5 mt-5">
+    <main >
+        <div class="container" id="codeContainer">
             <h2 class="border-1 border-bottom border-dark">The Code for Hundo</h2>
-            <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col-lg-8">
-                    <pre class="line-numbers"><code class="language-javascript">
-                        //Call Hello World
-                        function HelloWorld() {
-                            alert("Hello World");
-                        }
-                    </code>
-                    </pre>
+            <div class="row g-4 ">
+                <div class="col col-lg-8 col-sm-12">
+                    <pre data-src="/js/site.js" class="line-numbers"></pre>
                 </div>
 
-                <div class="col-lg-4">
-                    <p>The Code is structured in one function</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World"</p>
+                <div class="col col-lg-4 col-sm-12">
+                    <div class="row row-cols-1">
+                        <div class="col d-flex justify-content-center">
+                            <h5>Hundo Explained</h5>
+
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <p>Hundo is a modest project not really meant to highlight a complex problem.
+                                But to carve out out a template for future projects I'd like to feature.
+                                The program simply retrieves values from the page's form.
+                                Uses the numbers to generate a list.
+                                Then updates an html table element in the page with the list.
+                                With even numbers being displayed in bold.
+                            </p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>

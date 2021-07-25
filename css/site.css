@@ -1,3 +1,7 @@
+#codeContainer {
+    min-width: 85vw;
+}
+
 :root {
     --primary-color: #1d5888;
     --secondary-color: #d8b2a7;
